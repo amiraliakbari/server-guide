@@ -1,5 +1,7 @@
 name: "Server Guide"
+markdown: redcarpet
 pygments: true
 timezone: Asia/Tehran
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
