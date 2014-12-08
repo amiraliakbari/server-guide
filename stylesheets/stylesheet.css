@@ -92,7 +92,8 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  /*font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;*/
+  font-family: "B Titr", BTitr, Titr, monospace;
   color: #b5e853;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -254,5 +255,27 @@ a {
 
 /* Custom */
 strong {
-    color: yellow;
+  color: yellow;
+}
+
+pre {
+  direction: ltr;
+  text-align: left;
+}
+
+pre code {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+}
+
+code {
+  border: 1px solid #CCC;
+  background-color: #444;
+  padding: 4px;
+}
+
+p > img {
+  display: block;
+  margin: 0 auto;
 }
